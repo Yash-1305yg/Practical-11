@@ -50,7 +50,7 @@ footer{
 }
 a{
     text-decoration: none;
-    color: gray;
+    color: grey;
 }
 a:hover{
     color:orange;
@@ -143,15 +143,22 @@ i{
     padding: 30px;
 }
 .sec-4 p{
-    color: grey;
+    color: white;
     position: relative;
+}
+.sec-4 a{
+    color: white;
+    position: relative;
+}
+.sec-4 a:hover{
+    color: orange;
 }
 .sec-4 p::after
 {
-    content: '';
+    content: ' ';
     display: block;
     width: 0;
-    height: 2px;
+    height: 5px;
     position: absolute;
     right: 0;
     bottom: -10px;
@@ -161,9 +168,7 @@ i{
 .sec-4 p:hover::after
 {
     width: 100%;
-
 }
-
 hr{
     opacity: 0.2;
 }
